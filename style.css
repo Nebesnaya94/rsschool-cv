@@ -173,7 +173,7 @@ section {
   margin: 30px 30px 80px;
 }
 
-section div {
+pre {
   letter-spacing: 1px;
   word-spacing: 4px;
   font-size: 16px;
@@ -183,7 +183,7 @@ section div {
   padding: 30px;
   background-color: rgba(255, 255, 255, 0.358);
   font-style: italic;
-  width: 55%;
+  width: 60%;
 }
 
 footer {

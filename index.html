@@ -55,41 +55,40 @@
     </section>
     <section>
       <h2>Code examples</h2>
-      <br />
-      <div>
-        function shark(pontoonDistance, sharkDistance, youSpeed, sharkSpeed,
-        dolphin){
-        <br />
-        <br />
-        if (dolphin) {<br />
-        sharkSpeed = sharkSpeed/2;<br />
-        } <br />
-        <br />
-        <br />
-        if (sharkDistance/sharkSpeed > pontoonDistance/youSpeed) { <br />
-        return "Alive!"; <br />
-        } else { <br />
-        return "Shark Bait!"; <br />
-        } <br />
-        } <br />
-      </div>
-      <br />
-      <div>
-        let isSquare = function(n){
-        <br />
-        <br />
-        if (n<0) { <br />
-        return false; <br />
-        } <br />
-        <br />
-        for (let m = 0; m<n+1; m++) { <br /> if (m**2==n) { <br />
-        return true; <br />
-        } <br />
-        <br />
-        } <br />
-        return false; <br />
-        }
-      </div>
+      <pre>
+        <code>
+  function shark(pontoonDistance, sharkDistance, youSpeed, sharkSpeed, dolphin){
+
+    if (dolphin) {
+              sharkSpeed = sharkSpeed/2;
+              }
+          
+    if (sharkDistance/sharkSpeed > pontoonDistance/youSpeed) {
+              return "Alive!";
+              } else {
+              return "Shark Bait!";
+              }
+    }
+        </code>
+      </pre>
+      <pre>
+        <code>
+  let isSquare = function(n){
+
+    if (n&lt;0) {
+           return false;
+           }
+            
+    for (let m=0; m&lt;n+1; m++) {
+    
+      if (m**2==n) {
+                return true;
+                }
+      }
+      return false;
+      }
+      </code>
+      </pre>
     </section>
     <section>
       <h2>Education</h2>
@@ -100,7 +99,13 @@
       <p>Pre-Intermediate (A2).</p>
     </section>
     <footer>
-      <img src="./logo-rsschool3.png" alt="logo-rsschool" />
+      <a class="my_github" target="_blank" href="https://github.com/Nebesnaya94"
+        >https://github.com/Nebesnaya94</a
+      >
+      <a class="rs_link" target="_blank" href="https://rs.school/js/"
+        ><img src="./logo-rsschool3.png" alt="logo-rsschool"
+      /></a>
+      <div><b>2022</b></div>
     </footer>
   </body>
 </html>

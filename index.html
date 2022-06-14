@@ -10,94 +10,110 @@
   <body>
     <header>
       <img src="./avatar.jpg" alt="avatar" />
-      <br /><br /><br />
+      <br />
       <h1><b>Nadya Stashkevich</b></h1>
       <h2>Web Developer</h2>
+      <nav>
+        <a href="#Contacts">Contacts</a>
+        <a href="#Skills">Skills</a>
+        <a href="#About">About</a>
+        <a href="#Experience">Experience</a>
+        <a href="#Code_examples">Code examples</a>
+        <a href="#Education">Education</a>
+        <a href="#Language">Language</a>
+      </nav>
     </header>
     <aside>
       <section>
-        <h2>Contacts</h2>
-        <p><b>E-mail:</b> kuroi.alice.13@gmail.com</p>
-        <p><b>Discord:</b> Nebesnaya#0470</p>
-        <p><b>GitHub:</b> Nebesnaya94</p>
-        <p><b>Telegram:</b> nebesnaya94</p>
+        <h2 id="Contacts">Contacts</h2>
+        <ul>
+          <li><b>E-mail:</b> kuroi.alice.13@gmail.com</li>
+          <li><b>Discord:</b> Nebesnaya#0470</li>
+          <li><b>GitHub:</b> Nebesnaya94</li>
+          <li><b>Telegram:</b> nebesnaya94</li>
+        </ul>
       </section>
       <section>
-        <h2>My skills</h2>
-        <p><b>HTML</b></p>
-        <p><b>CSS</b></p>
-        <p><b>VS Code</b></p>
-        <p><b>Figma</b></p>
+        <h2 id="Skills">My skills</h2>
+        <ul>
+          <li><b>HTML</b></li>
+          <li><b>CSS</b></li>
+          <li><b>VS Code</b></li>
+          <li><b>Figma</b></li>
+        </ul>
       </section>
     </aside>
-    <section>
-      <h2>About me</h2>
-      <p>
-        My name is Nadya Stashkevich. I'm studying to be a Front-end Developer.
-        Independently studied the layout of websites using HTML and CSS, made up
-        several web pages, started learning Java Script. I am a doctor by
-        education, but I want to change my specialization in the future.
-      </p>
-    </section>
-    <section>
-      <h2>Work experience</h2>
-      <p>
-        Completed several training projects. Examples:
-        <a href="https://nebesnaya-project-restaurant.netlify.app/"
-          >https://nebesnaya-project-restaurant.netlify.app/</a
-        >
-        ,
-        <a href="https://nebesnaya-bootstrap-project.netlify.app/"
-          >https://nebesnaya-bootstrap-project.netlify.app/</a
-        >
-        .
-      </p>
-    </section>
-    <section>
-      <h2>Code examples</h2>
-      <pre>
-        <code>
-  function shark(pontoonDistance, sharkDistance, youSpeed, sharkSpeed, dolphin){
-
-    if (dolphin) {
-              sharkSpeed = sharkSpeed/2;
-              }
-          
-    if (sharkDistance/sharkSpeed > pontoonDistance/youSpeed) {
-              return "Alive!";
-              } else {
-              return "Shark Bait!";
-              }
-    }
-        </code>
-      </pre>
-      <pre>
-        <code>
-  let isSquare = function(n){
-
-    if (n&lt;0) {
-           return false;
-           }
+    <main>
+      <section>
+        <h2 id="About">About me</h2>
+        <p>
+          My name is Nadya Stashkevich. I'm studying to be a Front-end
+          Developer. Independently studied the layout of websites using HTML and
+          CSS, made up several web pages, started learning Java Script. I am a
+          doctor by education, but I want to change my specialization in the
+          future.
+        </p>
+      </section>
+      <section>
+        <h2 id="Experience">Work experience</h2>
+        <p>
+          Completed several training projects. Examples:
+          <a href="https://nebesnaya-project-restaurant.netlify.app/"
+            >https://nebesnaya-project-restaurant.netlify.app/</a
+          >
+          ,
+          <a href="https://nebesnaya-bootstrap-project.netlify.app/"
+            >https://nebesnaya-bootstrap-project.netlify.app/</a
+          >
+          .
+        </p>
+      </section>
+      <section>
+        <h2 id="Code_examples">Code examples</h2>
+        <pre>
+          <code>
+    function shark(pontoonDistance, sharkDistance, youSpeed, sharkSpeed, dolphin){
+  
+      if (dolphin) {
+                sharkSpeed = sharkSpeed/2;
+                }
             
-    for (let m=0; m&lt;n+1; m++) {
-    
-      if (m**2==n) {
-                return true;
+      if (sharkDistance/sharkSpeed > pontoonDistance/youSpeed) {
+                return "Alive!";
+                } else {
+                return "Shark Bait!";
                 }
       }
-      return false;
-      }
-      </code>
-      </pre>
-    </section>
-    <section>
-      <h2>Education</h2>
-      <p>Online courses on Stepik.org, video tutorials on Youtube.com.</p>
-    </section>
-    <section>
-      <h2>English level</h2>
-      <p>Pre-Intermediate (A2).</p>
-    </section>
+          </code>
+        </pre>
+        <pre>
+          <code>
+    let isSquare = function(n){
+  
+      if (n&lt;0) {
+             return false;
+             }
+              
+      for (let m=0; m&lt;n+1; m++) {
+      
+        if (m**2==n) {
+                  return true;
+                  }
+        }
+        return false;
+        }
+        </code>
+        </pre>
+      </section>
+      <section>
+        <h2 id="Education">Education</h2>
+        <p>Online courses on Stepik.org, video tutorials on Youtube.com.</p>
+      </section>
+      <section>
+        <h2 id="Language">English level</h2>
+        <p>Pre-Intermediate (A2).</p>
+      </section>
+    </main>
     <footer>
       <a class="my_github" target="_blank" href="https://github.com/Nebesnaya94"
         >https://github.com/Nebesnaya94</a

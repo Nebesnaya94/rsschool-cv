@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>CV html</title>
+</head>
+
+<body>
+  <header>
+    <img src="./avatar.jpg" alt="avatar" />
+    <br />
+    <h1><b>Nadya Stashkevich</b></h1>
+    <h2>Front-end Developer</h2>
+    <nav>
+      <a href="#Contacts">Contacts</a>
+      <a href="#Skills">Skills</a>
+      <a href="#About">About</a>
+      <a href="#Experience">Experience</a>
+      <a href="#Code_examples">Code examples</a>
+      <a href="#Education">Education</a>
+      <a href="#Language">Language</a>
+    </nav>
+  </header>
+  <aside>
+    <section>
+      <h2 id="Contacts">Contacts</h2>
+      <ul>
+        <li><b>E-mail:</b> kuroi.alice.13&shy;@gmail.com</li>
+        <li><b>Discord:</b> Nebesnaya#0470</li>
+        <li><b>GitHub:</b> Nebesnaya94</li>
+        <li><b>Telegram:</b> @nebesnaya94</li>
+      </ul>
+    </section>
+    <section>
+      <h2 id="Skills">My skills</h2>
+      <ul class="skills-list">
+        <li><b>HTML</b></li>
+        <li><b>CSS</b></li>
+        <li><b>VS Code</b></li>
+        <li><b>Figma</b></li>
+        <li><b>DevTools</b></li>
+        <li><b>Git and GitHub</b></li>
+        <li><b>JavaScript</b></li>
+      </ul>
+    </section>
+  </aside>
+  <main>
+    <section class="main_section">
+      <h2 id="About">About me</h2>
+      <p>
+        My name is Nadya Stashkevich. I'm studying to be a Front-end Developer.
+        Independently studied the layout of websites using HTML and CSS, made up several web pages, started learning
+        Java
+        Script. A few months ago I started to study at Rolling Scopes school, took a preparatory course. I continue to
+        study,
+        and I also try to improve my level of English by watching films in English and learning new words from IT.
+        I am a doctor by education, but I want to change my specialization in the future.
+      </p>
+    </section>
+    <section class="main_section">
+      <h2 id="Experience">Work experience</h2>
+      <p>
+        Completed several training projects. Examples: <br>
+        <a target="_blank"
+          href="https://nebesnaya-project-restaurant.netlify.app/">https://nebesnaya-project-restaurant.netlify.app/</a>,
+        <br>
+        <a target="_blank"
+          href="https://nebesnaya94.github.io/travel-portal/travel/">https://nebesnaya94.github.io/travel-portal/</a>,
+        <br>
+        <a target="_blank"
+          href="https://nebesnaya94.github.io/momentum/index">https://nebesnaya94.github.io/momentum/</a>
+        .
+      </p>
+    </section>
+    <section class="main_section">
+      <h2 id="Code_examples">Code examples</h2>
+      <pre>
+          <code>
+    function combine() {  
+      let newObj = {};  
+              
+      for (let n = 0; n &lt; arguments.length; n++){    
+      for (let key in arguments[n]){  
+        if (key in newObj) {  
+          newObj[key] += arguments[n][key];    
+        } else {  
+          newObj[key] = arguments[n][key];    
+        }
+      }
+    }
+            
+    return newObj;
+    }
+          </code>
+        </pre>
+      <pre>
+          <code>
+    function dataReverse(data) {    
+      let revData = [];
+      let i;
+      for(let n=0; n &lt; data.length; n=n+8) {    
+         i = data.slice(n,n+8);    
+        revData = i.concat(revData);    
+      }
+      return revData;
+    }
+        </code>
+        </pre>
+    </section>
+    <section class="main_section">
+      <h2 id="Education">Education</h2>
+      <p>Online courses on Stepik.org, video tutorials on Youtube.com, JSFEPRESCHOOL2022Q2 (Rolling Scopes school,
+        stage0).</p>
+    </section>
+    <section class="main_section">
+      <h2 id="Language">English level</h2>
+      <p>Pre-Intermediate (A2).</p>
+    </section>
+  </main>
+  <footer>
+    <a class="my_github" target="_blank" href="https://github.com/Nebesnaya94">
+      <img class="git-logo" src="./git-logo.png" alt="git-logo" />
+    </a>
+    <a class="rs_link" target="_blank" href="https://rs.school/js/"><img src="./rs_school_js.svg"
+        alt="logo-rsschool" /></a>
+    <div>2022</div>
+  </footer>
+</body>
+
+</html>

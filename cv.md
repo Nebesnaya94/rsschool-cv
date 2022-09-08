@@ -4,16 +4,16 @@
 
 **E-mail:** *kuroi.alice.13@gmail.com*
 
-**Disord:** _Nebesnaya#0470_
+**Discord:** _Nebesnaya#0470_
 
 **GitHub:** _Nebesnaya94_
 
-**Telegram:** _nebesnaya94_
+**Telegram:** _@nebesnaya94_
 
 ## About me
 
 My name is Nadya Stashkevich. I'm studying to be a Front-end Developer.
-Independently studied the layout of websites using HTML and CSS, made up several web pages, started learning Java Script.
+Independently studied the layout of websites using HTML and CSS, made up several web pages, started learning Java Script. A few months ago I started to study at Rolling Scopes school, took a preparatory course. I continue to study, and I also try to improve my level of English by watching films in English and learning new words from IT.
 I am a doctor by education, but I want to change my specialization in the future.
 
 ## My skills
@@ -26,44 +26,51 @@ I am a doctor by education, but I want to change my specialization in the future
 
 **Figma**
 
+**DevTools**
+
+**Git and GitHub**
+
+**JavaScript**
+
 ## Code examples
 
 ```
-function shark(pontoonDistance, sharkDistance, youSpeed, sharkSpeed, dolphin){
-
-  if (dolphin) {
-    sharkSpeed = sharkSpeed/2;
+function combine() {
+  let newObj = {};
+  
+ for (let n = 0; n < arguments.length; n++){
+  for (let key in arguments[n]){
+    if (key in newObj) {
+      newObj[key] += arguments[n][key];
+    } else {
+      newObj[key] = arguments[n][key];
+    }
   }
+}
 
-    if (sharkDistance/sharkSpeed > pontoonDistance/youSpeed) {
-    return "Alive!";
-  } else {
-     return "Shark Bait!";
-  }
+return newObj;
 }
 ```
 
 ```
-let isSquare = function(n){
-if (n<0) {
-return false;
-}
-for (let m = 0; m<n+1; m++) {
-if (m**2==n) {
-return true;
-}
-}
-return false;
+function dataReverse(data) {
+  let revData = [];
+  let i;
+  for(let n=0; n<data.length; n=n+8) {
+    i = data.slice(n,n+8);
+    revData = i.concat(revData);
+  }
+  return revData;
 }
 ```
 
 ## Work experience
 
-Completed several training projects. Examples: https://nebesnaya-project-restaurant.netlify.app/ , https://nebesnaya-bootstrap-project.netlify.app/ .
+Completed several training projects. Examples: https://nebesnaya-project-restaurant.netlify.app/ , https://nebesnaya94.github.io/travel-portal/travel/ , https://nebesnaya94.github.io/momentum/index .
 
 ## Education
 
-Online courses on Stepik.org, video tutorials on Youtube.com.
+Online courses on Stepik.org, video tutorials on Youtube.com, JSFEPRESCHOOL2022Q2 (Rolling Scopes school, stage0).
 
 ## English level
 
